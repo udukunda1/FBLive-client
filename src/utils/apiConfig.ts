@@ -1,7 +1,7 @@
 // API Configuration
 const getApiUrl = (): string => {
   // Use environment variable if available, otherwise fallback to localhost
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://13.51.238.232:3000';
   
   // Remove trailing slash if present
   return apiUrl.replace(/\/$/, '');
